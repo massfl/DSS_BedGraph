@@ -42,8 +42,7 @@ DSS_bedgraph(DSS_output_file_and_path = "/Users/username/methyl_CHGs_DSS_test.tx
 Result: a .BedGraph.gz file that can be uploaded onto the UCSC browser, see below:
 
 
-![ucsc_track_test_dss_bedgraph](https://user-images.githubusercontent.com/36674021/47677214-e6493400-db94-11e8-9e44-47987b961e21.png)
-                        
-                              
+![ucsc_track_test_dss_bedgraph](https://user-images.githubusercontent.com/36674021/47677514-b64e6080-db95-11e8-8f75-3e4f7af58ced.png)
+                   
                               
                               
