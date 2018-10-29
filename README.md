@@ -15,26 +15,27 @@ DSS_BedGraph is python3 module that requires pandas
 DSS_bedgraph(DSS_output_file_and_path, output_file_and_path, Cytosine_context, mu1 = "Control", mu2 = "Experimental", RGB_track_color = [(102, 204, 255), (51, 204, 51)], per_chr = True, full_bedGraph = True):
 
 parameters:                  
-                             **DSS_output_file_and_path**: full path to the DSS methylation file
-                             **output_file_and_path**: full path to the folder where to save the BedGraph files
-                             **Cytosine_context**: a string documenting the type of cytosine methylation that will be used to call the             
+                             .**DSS_output_file_and_path**: full path to the DSS methylation file
+                             .**output_file_and_path**: full path to the folder where to save the BedGraph files
+                             .**Cytosine_context**: a string documenting the type of cytosine methylation that will be used to call the             
                               output file (e.g "CG" or "CH")    
-                             **mu1**: a string indicating the name of sample 1, default: "Control"
-                             **mu2**: a string indicating the name of sample 2, default: "Experimental"
-                             **RGB_track_color**: a list of tuples containing RGB color values for each samples, default [(102, 204, 255), (51, 204, 51)] so that sample1 is blue and sample is green
-                             **per_chr**: boolean, if True will generate a separate BedGraph file for each chromosome, default: True
-                             **full_bedGraph**: boolean, if True will generate a whole genome BedGraph file, default: True
+                             .**mu1**: a string indicating the name of sample 1, default: "Control"
+                             .**mu2**: a string indicating the name of sample 2, default: "Experimental"
+                             .**RGB_track_color**: a list of tuples containing RGB color values for each samples, default [(102, 204, 255), (51, 204, 51)] so that sample1 is blue and sample is green
+                             .**per_chr**: boolean, if True will generate a separate BedGraph file for each chromosome, default: True
+                             .**full_bedGraph**: boolean, if True will generate a whole genome BedGraph file, default: True
                              
                            
 **EXAMPLE**
 
->>>DSS_bedgraph(DSS_output_file_and_path = "/Users/username/methyl_CHGs_DSS_test.txt.gz", output_file_and_path = "/Users/username/", mu1 = "sample1", mu2 = "sample2", RGB_track_color = [(102, 204, 255), (51, 204, 51)], Cytosine_context = "CpH", per_chr = True, full_bedGraph = True)
+DSS_bedgraph(DSS_output_file_and_path = "/Users/username/methyl_CHGs_DSS_test.txt.gz", output_file_and_path = "/Users/username/", mu1 = "sample1", mu2 = "sample2", RGB_track_color = [(102, 204, 255), (51, 204, 51)], Cytosine_context = "CpH", per_chr = True, full_bedGraph = True)
                              
                                           
 Result:
 
 
-                              
+![ucsc_track_test_dss_bedgraph](https://user-images.githubusercontent.com/36674021/47677214-e6493400-db94-11e8-9e44-47987b961e21.png)
+                        
                               
                               
                               
