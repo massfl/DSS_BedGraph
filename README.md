@@ -36,7 +36,7 @@ DSS_bedgraph(DSS_output_file_and_path, output_file_and_path, Cytosine_context, m
                            
 **EXAMPLE**
 
-DSS_bedgraph(DSS_output_file_and_path = "/Users/username/methyl_CHGs_DSS_test.txt.gz", output_file_and_path = "/Users/username/", mu1 = "sample1", mu2 = "sample2", RGB_track_color = [(102, 204, 255), (51, 204, 51)], Cytosine_context = "CpH", per_chr = True, full_bedGraph = True)
+DSS_bedgraph(DSS_output_file_and_path = "/Users/username/methyl_CpG_DSS_test.txt.gz", output_file_and_path = "/Users/username/", mu1 = "sample1", mu2 = "sample2", RGB_track_color = [(102, 204, 255), (51, 204, 51)], Cytosine_context = "CpH", per_chr = True, full_bedGraph = True)
                              
                                           
 Result: a .BedGraph.gz file that can be uploaded onto the UCSC browser, see below:
