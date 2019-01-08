@@ -67,8 +67,8 @@ def DSS_bedgraph(DSS_output_file_and_path,
 
 		#the following piece of code creates the actual bedGraph files
 		#Note a UCSC bedgraph is 0 based |N|C|G|N|
-		#                    			 / /  \ \
-		#                   			0 1   2  3
+		#                    		 / /  \ \
+		#                   		0 1   2  3
 
 		cytoBed = pd.DataFrame()
 		cytoBed["chr"] = cyto.loc[:, "chr"]
